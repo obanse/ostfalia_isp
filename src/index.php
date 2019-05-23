@@ -6,4 +6,4 @@
 
 <h2>Aufgabe 2</h2>
 
-<a href="esa1/helloworld.php">Zur ESA2 - Wunschzettel</a>
+<a href="esa2/enter-wishes.html">Zur ESA2 - Wunschzettel</a>
