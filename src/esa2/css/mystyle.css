@@ -37,11 +37,12 @@
 }
 
 /* Formular Text-Box */
-input[type=text] {
+input[type=text], input[type=tel] {
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 10px;
     width: 100%;
+    max-width: 500px;
 }
 
 /* Formular Buttons */

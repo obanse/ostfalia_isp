@@ -6,7 +6,7 @@ if (isset($_POST["wunschEins"])) {
 }
 
 // HTML Header-Daten einbinden
-include('header.php');
+include('./template/header.php');
 
 // Ueberpruefen wenn Variable gesetzt, dann ausgeben, sonst Fehlermeldung ausgeben
 function getVar($var): string {
@@ -48,7 +48,7 @@ function getVar($var): string {
                 
                 <div class="flex-row">
                     <label class="lbl-delivery">Telefon:</label>
-                    <input type="text" name="phone" />
+                    <input type="tel" name="phone" />
                 </div>                
 
                 <div class="flex-row">
@@ -62,4 +62,4 @@ function getVar($var): string {
     </main>
 </body>
 
-<?php include('footer.php'); ?>
+<?php include('./template/footer.php'); ?>
