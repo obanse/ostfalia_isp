@@ -5,7 +5,11 @@ session_start();
 // HTML Header-Daten einbinden
 include('./template/header.php');
 
-// Ueberpruefen wenn Variable gesetzt, dann ausgeben, sonst Fehlermeldung ausgeben
+/**
+ * Ueberprueft ob Variable gesetzt ist und gibt diese aus. Im Fehler-Fall wird eine Fehlermeldung ausgegeben
+ * @* @param string $var Zu überprüfende Variable
+ * @* @return string
+ */
 function getVar($var): string {
     if (isset($_POST["$var"]) && $_POST["$var"] != "") {
         return $_POST["$var"];
