@@ -3,7 +3,7 @@
 session_start();
 
 // HTML Header-Daten einbinden
-include('header.php');
+include('./template/header.php');
 
 // Ueberpruefen wenn Variable gesetzt, dann ausgeben, sonst Fehlermeldung ausgeben
 function getVar($var): string {
@@ -41,4 +41,4 @@ function getVar($var): string {
     </main>
 </body>
 
-<?php include('footer.php'); ?>
+<?php include('./template/footer.php'); ?>
