@@ -1,18 +1,51 @@
+<!DOCTYPE html>
 <html>
-    <body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Oliver Banse" />
+        <meta name="keywords" content="HTML, CSS, PHP" />
+        <meta name="description" content="Modul: Internet-Server Programmierung, Einsendeaufgabe 2" />
+        <meta name="date" content="2019-05-23" />
 
+        <!-- CSS-Stylesheet einbinden "Hauptdesign" -->
+        <link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+    
+        <title>ISP - Einsendeaufgabe 2</title>
+    </head>
+    
+    <body>
+        <main class="flex-main flex-container">
+
+            <!-- Ueberschrift -->
             <h1>Meine Wünsche</h1>
 
-            <form action="enter-address.php" method="POST">
-                <label>1. Wunsch: </label>
-                <input type="text" name="wishOne" /><br>
-                <label>2. Wunsch: </label>
-                <input type="text" name="wishTwo" /><br>
-                <label>3. Wunsch: </label>
-                <input type="text" name="wishThree" /><br>
-                <button type="reset">Abbrechen</button>
-                <button type="submit">OK</button>
-            </form>
+            <!-- Formular: Wuensche -->
+            <section class="flex-form">
+                <form action="./enter-address.php" method="POST">
 
+                    <div class="flex-row">
+                        <label class="lbl-wishes" for="wishOne">1. Wunsch:</label>
+                        <input type="text" id="wishOne" name="wunschEins" />
+                    </div>
+
+                    <div class="flex-row">
+                        <label class="lbl-wishes" for="wishTwo">2. Wunsch: </label>
+                        <input type="text" id="wishTwo" name="wunschZwei" />
+                    </div>
+
+                    <div class="flex-row">
+                        <label class="lbl-wishes" for="wishThree">3. Wunsch: </label>              
+                        <input type="text" id="wishThree" name="wunschDrei" />
+                    </div>
+
+                    <div class="flex-row">
+                        <button type="reset" class="btn-reset">Abbrechen</button>
+                        <button type="submit" class="btn-submit">OK</button>
+                    </div>
+
+                </form>
+            </section>
+
+        </main>
     </body>
 </html>

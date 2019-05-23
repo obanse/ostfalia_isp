@@ -1,14 +1,44 @@
-<html>
-    <body>
-        <h1>Lieferangaben</h1>
+<?php 
+// Session starten
+session_start();
 
-        <p>1. Wunsch: <?php echo $_POST["wishOne"]; ?></p>
-        <p>2. Wunsch: <?php echo $_POST["wishTwo"]; ?></p>
-        <p>3. Wunsch: <?php echo $_POST["wishThree"]; ?></p>
+// HTML Header-Daten einbinden
+include('header.php');
 
-        <p>Vor- und Nachname: <?php echo $_POST["name"]; ?></p>
-        <p>PLZ und Ort: <?php echo $_POST["city"]; ?></p>
-        <p>Telefon: <?php echo $_POST["phone"]; ?></p>
+// Ueberpruefen wenn Variable gesetzt, dann ausgeben, sonst Fehlermeldung ausgeben
+function getVar($var): string {
+    if (isset($_POST["$var"]) && $_POST["$var"] != "") {
+        return $_POST["$var"];
+    } elseif (isset($_SESSION["$var"]) && $_SESSION["$var"] != "") {
+        return $_SESSION["$var"];
+    } else {        
+        return "<span class='form-empty'>nicht angegeben!<span>";
+    }
+}
+?>
 
-    </body>
-</html>
+
+<body>
+    <main class="flex-main flex-container">  
+
+        <!-- Ueberschrift -->
+        <h1>Wunschübersicht</h1>
+
+        <!-- Formular: Ausgabe Wuensche -->
+        <section class="form-output-wishes">
+            <p><strong>1. Wunsch:</strong> <?php echo getVar("wunschEins"); ?></p>
+            <p><strong>2. Wunsch:</strong> <?php echo getVar("wunschZwei"); ?></p>
+            <p><strong>3. Wunsch:</strong> <?php echo getVar("wunschDrei"); ?></p>
+        </section>
+        
+        <!-- Formular: Ausgabe Lieferangaben -->
+        <section class="form-output-delivery">
+            <p><strong>Vor- und Nachname:</strong> <?php echo getVar("name"); ?></p>
+            <p><strong>PLZ und Ort:</strong> <?php echo getVar("city"); ?></p>
+            <p><strong>Telefon:</strong> <?php echo getVar("phone"); ?></p>
+        </section>
+
+    </main>
+</body>
+
+<?php include('footer.php'); ?>
