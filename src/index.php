@@ -7,3 +7,7 @@
 <h2>Einsendeaufgabe 2</h2>
 
 <a href="esa2/enter-wishes.html">Zur ESA2 - Wunschzettel</a>
+
+<h2>Entwurfsmuster (design patterns)</h2>
+
+<a href="entwurfsmuster/index.html">Zu den Entwurfsmustern</a>
