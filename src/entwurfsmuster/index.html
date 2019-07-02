@@ -1,0 +1,40 @@
+<header>
+    <h1>Entwurfsmuster (design patterns)</h1>
+</header>
+<main>
+    <section>
+        <h2>Verhaltensmuster</h2>
+        <article>
+            <h3>Template Pattern (Schablone)</h3>
+            <p>Das Verhaltensmuster Schablone (Template) dient dazu <strong>gemeinsame meist abstrakte Methoden
+                fuer Subklassen bereitzustellen</strong> die in der eigenen Programmlogik Verwendung finden. 
+                Anders ausgedrueckt: <strong>Wir stellen das Skelett des Programmablaufs bereit und delegieren 
+                Arbeitsschritte an die Tochterklassen.</strong> Dazu erstellt man eine abstrakte Klasse mit 
+                abstrakten Methoden. Diese werden dann in den konkreten Klassen implementiert.</p>
+            <img src="images/template-pattern.jpg" alt="UML-Diagramm: Template Pattern">
+            <div>
+                <a href="TemplateDemo.php">CarTemplate - Demo</a>
+            </div>
+        </article>
+    </section>
+    <section>
+        <h2>Strukturmuster</h2>
+        <article>
+            <h3>Decorator Pattern (Dekorierer)</h3>
+            <p>Der Dekorierer gehoert zur Gruppe der Strukturmuster und kann eingesetzt werden, um komplizierte 
+                Vererbungshierarchien zu umgehen die durch die Kombination von Eigenschaften entstehen würden. 
+                Fuer unser Beispiel bedeutet das, dass wir unsere Anforderungen wie Spoiler und Turbo umsetzen 
+                koennen indem wir das Auto dekorieren.
+            </p>
+            <img src="images/decorator-pattern.png" alt="UML Diagramm: Decorator Pattern">
+            <div>
+                <a href="TemplateDemo.php">CarDecorater - Demo</a>
+            </div>            
+        </article>
+    </section>
+
+        
+
+</main>
+
+
