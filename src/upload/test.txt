@@ -1,0 +1,2 @@
+Dies ist ein Beispiel-Text, 
+der nur zum Test dienen soll.

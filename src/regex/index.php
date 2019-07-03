@@ -22,5 +22,17 @@
         }
         closedir($dir);
     ?>
+    <h2>Sonstiges</h2>
+    <?php
+
+        $dir = opendir("../sonstiges/");
+        $j = 1;
+        while($file = readdir($dir)) {
+            if(!($file == '.' or $file == '..')) {
+                echo '<a href="../sonstiges/' . $file . '">Beispiel '. regEx($file)[0] .'</a><br>';
+            }
+        }
+        closedir($dir);
+    ?>
 </body>
 </html>
