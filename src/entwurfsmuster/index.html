@@ -2,33 +2,117 @@
     <h1>Entwurfsmuster (design patterns)</h1>
 </header>
 <main>
-    <section>
+    <section class="verhaltensmuster">
         <h2>Verhaltensmuster</h2>
         <article>
             <h3>Template Pattern (Schablone)</h3>
-            <p>Das Verhaltensmuster Schablone (Template) dient dazu <strong>gemeinsame meist abstrakte Methoden
-                fuer Subklassen bereitzustellen</strong> die in der eigenen Programmlogik Verwendung finden. 
-                Anders ausgedrueckt: <strong>Wir stellen das Skelett des Programmablaufs bereit und delegieren 
-                Arbeitsschritte an die Tochterklassen.</strong> Dazu erstellt man eine abstrakte Klasse mit 
-                abstrakten Methoden. Diese werden dann in den konkreten Klassen implementiert.</p>
-            <img src="images/template-pattern.jpg" alt="UML-Diagramm: Template Pattern">
+            <p>Das Template Pattern stellt eine abstrakte Klasse bereit, welche abstrakte Methoden/Templates verfügbar macht.
+                Unterklassen können diese Methoden implementieren und nach Bedarf überschreiben. Der Aufruf muss jedoch so erfolgen, 
+                wie er von einer abstrakten Klasse definiert wird. Dieses Muster faellt unter die Kategorie Verhaltensmuster.
+            </p>
+            <img src="images/template-pattern.png" alt="UML-Diagramm: Template Pattern">
             <div>
-                <a href="TemplateDemo.php">CarTemplate - Demo</a>
+                <a href="demos/TemplateDemo.php">CarTemplate - Demo</a>
+            </div>
+        </article>
+        <article>
+            <h3>Strategy Pattern (Strategie)</h3>
+            <p>
+                Das Strategy Pattern kann sein Klassenverhalten oder sein Algorithmus zur Laufzeit aendern. Diese Art von Entwurfsmuster
+                fällt unter die Kategorie Verhaltensmuster.<br>
+                Beim Strategy Pattern erstellen wir Objekte, die verschiedene Strategien dartellen und ein Kontextobjekt, dessen Verhalten 
+                je nach Strategieobjekt variiert. Das Strategieobjekt aendert den Ausfuehrungsalgorithmus des Kontextobjekts.
+            </p>
+            <img src="images/strategy-pattern.png" alt="UML Diagramm: Strategy Pattern">
+            <div>
+                <a href="demos/StrategyDemo.php">CarStrategy - Demo</a>
+            </div>
+        </article>
+        <article>
+            <h3>Observer Pattern (Beobachter)</h3>
+            <p>
+                Das Observer Pattern wird verwendet wenn eine One-To-Many Beziehung zwischen Objekten besteht. z.B. wenn ein Objekt geaendert 
+                wird, werden seine abhängigen Objekte automatisch benachrichtigt. Das Observer Pattern faellt unter die Kategorie der Verhaltensmuster.
+            </p>
+            <img src="images/observer-pattern.png" alt="UML Diagramm: Observer Pattern">
+            <div>
+                <a href="demos/ObserverDemo.php">CarObserver - Demo</a>
             </div>
         </article>
     </section>
-    <section>
-        <h2>Strukturmuster</h2>
+    <section class="erzeugungsmuster">
+        <h2>Erzeugungsmuster</h2>
         <article>
+            <h3>Factory Pattern (Fabrikmethode)</h3>
+            <p>
+                Das Factory Pattern ist eines der am haeufigsten verwendeten Entwurfsmuster in Java. Diese Art von Entwurfsmuster faellt 
+                unter die Erzeugungsmuster, da dieses Muster eine der besten Moeglichkeiten zum Erstellen eines Objekts darstellt.<br>
+                Beim Factory Pattern erstellen wir ein Objekt, ohne die Erstellungslogik fuer den Client verfuegbar zu machen und verweisen 
+                ueber eine gemeinsame Schnittstelle auf ein neu erstelltes Objekt.
+            </p>
+            <img src="images/factory-pattern.png" alt="UML Diagramm: Factory Pattern">
+            <div>
+                <a href="demos/FactoryDemo.php">CarFactory - Demo</a>
+            </div>
+        </article>
+    </section>
+    <section class="strukturmuster">
+        <h2>Strukturmuster</h2>
+        <article class="adapter-pattern">
+            <h3>Adapter Pattern</h3>
+            <p>
+                Das Adapter Pattern fungiert als Bruecke zwischen zwei inkompatiblen Schnittstelle. Diese Art von Entwurfsmuster faellt unter
+                das Strukturmuster, da dieses Muster die Faehigkeit zweier unabhaengiger Schnittstellen kombiniert. <br>
+                Bei diesem Muster handelt es sich um eine einzelne Klasse, die fuer die Verknuepfung von Funktionen unabhaengiger oder
+                inkompatibler Schnittstellen verantwortlich ist. Ein reales Beispiel koennte ein Kartenleser sein, der als Adapter zwischen
+                Speicherkarte und Laptop fungiert. Sie stecken die Speicherkarte in den Kartenleser und den Kartenleser in den Laptop damit die
+                Speicherkarte ueber den Laptop gelesen werden kann.
+            </p>
+            <img src="images/adapter-pattern.png" alt="UML Diagramm: Adapter Pattern">
+            <div>
+                <a href="demos/AdapterDemo.php">CarAdapter - Demo</a>
+            </div>
+        </article>
+        <article class="composite-pattern">
+            <h3>Composite Pattern (Kompositum)</h3>
+            <p>
+                Ein zusammengesetztes Muster wird verwendet, wenn die Gruppe von Objekten auf aehnliche Weise, wie ein einzelnes Objekt behandelt
+                werden soll. Das Composite Pattern setzt Objekte in Form einer Baumstruktur zusammen, um sowohl Teil- als auch Gesamthierarchie 
+                darzustellen. Diese Art von Entwurfsmuster wird als Strukturmuster bezeichnet, da dieses Muster eine Baumstruktur von Objektgruppen
+                erstellt.<br>
+                Dieses Muster erstellt eine Klasse, die eine Gruppe eigener Objekte enthält. Diese Klasse bietet die Moeglichkeiten zum Aendern der 
+                Gruppe derselben Objekte.
+            </p>
+            <img src="images/composite-pattern.png" alt="UML Diagramm: Composite Pattern">
+            <div>
+                <a href="demos/CompositeDemo.php">CarComposite - Demo</a>
+            </div>
+            <div>
+                <a href="demos/CompositeDemo2.php">CarComposite - Demo 2</a>
+            </div>
+        </article>
+        <article class="proxy-pattern">
+            <h3>Proxy Pattern</h3>
+            <p>
+                Das Proxy Pattern repraesentiert eine Klasse die Funktionalitaet einer anderen Klasse. Diese Art von Entwurfsmuster faellt unter die
+                Kategorie Strukturmuster.
+            </p>
+            <img src="images/proxy-pattern.png" alt="UML Diagramm: Proxy Pattern">
+            <div>
+                <a href="demos/ProxyDemo.php">CarProxy - Demo</a>
+            </div>
+        </article>
+        <article class="decorator-pattern">
             <h3>Decorator Pattern (Dekorierer)</h3>
-            <p>Der Dekorierer gehoert zur Gruppe der Strukturmuster und kann eingesetzt werden, um komplizierte 
-                Vererbungshierarchien zu umgehen die durch die Kombination von Eigenschaften entstehen würden. 
-                Fuer unser Beispiel bedeutet das, dass wir unsere Anforderungen wie Spoiler und Turbo umsetzen 
-                koennen indem wir das Auto dekorieren.
+            <p>Mit dem Decorator Pattern kann ein Benutzer einem vorhandenen Objekt neue Funktionen hinzufuegen ohne dessen Struktur
+                zu aendern. Diese Art von Entwurfsmuster faellt unter die Kategorie Strukturmuster, da dieses Muster als Wrapper fuer
+                die vorhandene Klasse fungiert. <br>
+                Dieses Muster erstellt eine Dekorator-Klasse, die die ursprüngliche Klasse umschließt und zusätzliche Funktionen 
+                bereitstellt, die die Signatur der Klassenmethoden intakt halten.
             </p>
             <img src="images/decorator-pattern.png" alt="UML Diagramm: Decorator Pattern">
             <div>
-                <a href="TemplateDemo.php">CarDecorater - Demo</a>
+                <a href="demos/DecoratorDemo.php">CarDecorater - Demo</a>
             </div>            
         </article>
     </section>
