@@ -33,3 +33,27 @@ require_once '../classes/HydrogenEngineKit.class.php';
 
 $gasEngineKit = EngineKitFactory::createEngineKit('GasEngineKit');
 $car = CarFactory::createCar('TestCar', array('Spoilerkit', 'WideTires', 'Turbo'), $gasEngineKit);
+$car->getDisplayInformation();
+
+$car = new CarProxy($car);
+
+$car->drive(1000.00);
+printf('TankStatus: %.2f Liter<br>' , $car->getTankStatus());
+printf('Driven: %.3f kilometers<br>' , $car->getKilometersDriven());
+printf('Refilled: %.2f Liter<hr>' , $car->getEnergySourceRefilled());
+$car->drive(201.00);
+printf('TankStatus: %.2f Liter<br>' , $car->getTankStatus());
+printf('Driven: %.3f kilometers<br>' , $car->getKilometersDriven());
+printf('Refilled: %.2f Liter<hr>' , $car->getEnergySourceRefilled());
+$car->drive(101.00);
+printf('TankStatus: %.2f Liter<br>' , $car->getTankStatus());
+printf('Driven: %.3f kilometers<br>' , $car->getKilometersDriven());
+printf('Refilled: %.2f Liter<hr>' , $car->getEnergySourceRefilled());
+$car->drive(201.00);
+printf('TankStatus: %.2f Liter<br>' , $car->getTankStatus());
+printf('Driven: %.3f kilometers<br>' , $car->getKilometersDriven());
+printf('Refilled: %.2f Liter<hr>' , $car->getEnergySourceRefilled());
+$car->getDisplayInformation();
+
+$car->useEnergySource(40);
+printf('Refilled: %.2f Liter<hr>' , $car->getEnergySourceRefilled());
