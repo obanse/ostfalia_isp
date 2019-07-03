@@ -10,8 +10,8 @@
 
 <h2>Entwurfsmuster (design patterns)</h2>
 
-<a href="entwurfsmuster/index.html">Zu den Entwurfsmustern</a>
+<a href="entwurfsmuster/index.php">Zu den Entwurfsmustern</a>
 
 <h2>Regul&auml;re Ausdr&uuml;cke (RegEx - regular expressions)</h2>
 
-<a href="regex/index.html">Zu den Regul&auml;ren Ausdr&uuml;cken</a>
+<a href="regex/index.php">Zu den Regul&auml;ren Ausdr&uuml;cken</a>

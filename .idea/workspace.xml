@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2939503f-31d9-488c-a30d-f0882c91e24a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entwurfsmuster/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/entwurfsmuster/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/regex/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,35 +16,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding>
-                <element signature="e#332#338#0#HTML" expanded="true" />
-                <element signature="e#346#352#0#HTML" expanded="true" />
-                <element signature="e#440#446#0#HTML" expanded="true" />
-                <element signature="e#454#460#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/regex/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/entwurfsmuster/classes/Log.class.php">
+        <entry file="file://$PROJECT_DIR$/src/regex/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+            <state relative-caret-position="323">
+              <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sonstiges/directoryThings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/regex/beispiele/beispiel6.2.12.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sonstiges/debugging.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -58,10 +65,12 @@
     <findStrings>
       <find>&amp;uuml</find>
       <find>&amp;uum</find>
+      <find>$ersetzen</find>
     </findStrings>
     <replaceStrings>
       <replace>&amp;ouml;</replace>
       <replace>&amp;szlig;</replace>
+      <replace>$replacment</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -73,9 +82,19 @@
         <option value="$PROJECT_DIR$/src/entwurfsmuster/demos/FactoryDemo.php" />
         <option value="$PROJECT_DIR$/src/entwurfsmuster/demos/ProxyDemo.php" />
         <option value="$PROJECT_DIR$/src/entwurfsmuster/index.html" />
-        <option value="$PROJECT_DIR$/src/index.php" />
-        <option value="$PROJECT_DIR$/src/regex/index.html" />
         <option value="$PROJECT_DIR$/src/entwurfsmuster/classes/Log.class.php" />
+        <option value="$PROJECT_DIR$/src/regex/beispiel6.1.1.php" />
+        <option value="$PROJECT_DIR$/src/regex/beispiel6.1.2.php" />
+        <option value="$PROJECT_DIR$/src/regex/beispiel6.1.3.php" />
+        <option value="$PROJECT_DIR$/src/regex/beispiel6.2.9.php" />
+        <option value="$PROJECT_DIR$/src/regex/beispiel6.2.11.php" />
+        <option value="$PROJECT_DIR$/src/regex/beispiel6.2.10.php" />
+        <option value="$PROJECT_DIR$/src/regex/beispiel6.2.12.php" />
+        <option value="$PROJECT_DIR$/src/sonstiges/debugging.php" />
+        <option value="$PROJECT_DIR$/src/sonstiges/directoryThings.php" />
+        <option value="$PROJECT_DIR$/src/regex/index.html" />
+        <option value="$PROJECT_DIR$/src/index.php" />
+        <option value="$PROJECT_DIR$/src/regex/index.php" />
       </list>
     </option>
   </component>
@@ -117,8 +136,20 @@
               <item name="ostfalia_isp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ostfalia_isp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entwurfsmuster" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="regex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ostfalia_isp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ostfalia_isp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="regex" type="462c0819:PsiDirectoryNode" />
+              <item name="beispiele" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ostfalia_isp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ostfalia_isp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sonstiges" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -134,7 +165,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\olive\OneDrive - Ostfalia - Hochschule für angewandte Wissenschaften\SoSe_19\ISP\ostfalia_isp\src\regex" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\olive\OneDrive - Ostfalia - Hochschule für angewandte Wissenschaften\SoSe_19\ISP\ostfalia_isp\src\regex\beispiele" />
       <recent name="C:\Users\olive\OneDrive - Ostfalia - Hochschule für angewandte Wissenschaften\SoSe_19\ISP\ostfalia_isp\src\entwurfsmuster\demos" />
     </key>
   </component>
@@ -161,12 +196,12 @@
       <option name="presentableId" value="Default" />
       <updated>1562096061571</updated>
       <workItem from="1562096066953" duration="1495000" />
-      <workItem from="1562159778377" duration="1147000" />
+      <workItem from="1562159778377" duration="12125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2642000" />
+    <option name="totallyTimeSpent" value="13620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -176,7 +211,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -226,57 +261,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entwurfsmuster/index.html">
+    <entry file="file://$PROJECT_DIR$/src/entwurfsmuster/classes/Log.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regex/beispiele/beispiel6.1.1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regex/beispiele/beispiel6.1.2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regex/beispiele/beispiel6.2.9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regex/beispiele/beispiel6.1.3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regex/beispiele/beispiel6.2.11.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regex/beispiele/beispiel6.2.10.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entwurfsmuster/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="e#326#332#0" expanded="true" />
-            <element signature="e#374#380#0" expanded="true" />
-            <element signature="e#426#432#0" expanded="true" />
-            <element signature="e#565#571#0" expanded="true" />
-            <element signature="e#1030#1036#0" expanded="true" />
-            <element signature="e#1089#1095#0" expanded="true" />
-            <element signature="e#1351#1357#0" expanded="true" />
-            <element signature="e#1371#1377#0" expanded="true" />
-            <element signature="e#1868#1874#0" expanded="true" />
-            <element signature="e#1919#1925#0" expanded="true" />
-            <element signature="e#1990#1996#0" expanded="true" />
-            <element signature="e#2505#2511#0" expanded="true" />
-            <element signature="e#2586#2592#0" expanded="true" />
-            <element signature="e#2675#2681#0" expanded="true" />
-            <element signature="e#2822#2828#0" expanded="true" />
-            <element signature="e#2845#2851#0" expanded="true" />
-            <element signature="e#2897#2903#0" expanded="true" />
-            <element signature="e#3428#3434#0" expanded="true" />
-            <element signature="e#3511#3517#0" expanded="true" />
-            <element signature="e#3585#3591#0" expanded="true" />
-            <element signature="e#3611#3617#0" expanded="true" />
-            <element signature="e#3736#3742#0" expanded="true" />
-            <element signature="e#3753#3759#0" expanded="true" />
-            <element signature="e#3785#3791#0" expanded="true" />
-            <element signature="e#4117#4123#0" expanded="true" />
-            <element signature="e#4595#4601#0" expanded="true" />
-            <element signature="e#5062#5068#0" expanded="true" />
-            <element signature="e#5115#5121#0" expanded="true" />
-            <element signature="e#5655#5661#0" expanded="true" />
-            <element signature="e#5698#5704#0" expanded="true" />
-            <element signature="e#5758#5764#0" expanded="true" />
-            <element signature="e#6248#6254#0" expanded="true" />
-            <element signature="e#6298#6304#0" expanded="true" />
-            <element signature="e#6341#6347#0" expanded="true" />
-            <element signature="e#6345#6351#0" expanded="true" />
-            <element signature="e#6437#6443#0" expanded="true" />
-            <element signature="e#6591#6598#0" expanded="true" />
-            <element signature="e#6461#6467#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sonstiges/debugging.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sonstiges/directoryThings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regex/beispiele/beispiel6.2.12.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#332#338#0#HTML" expanded="true" />
             <element signature="e#346#352#0#HTML" expanded="true" />
@@ -286,17 +351,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/regex/index.html">
+    <entry file="file://$PROJECT_DIR$/src/regex/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entwurfsmuster/classes/Log.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+        <state relative-caret-position="323">
+          <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
         </state>
       </provider>
     </entry>
